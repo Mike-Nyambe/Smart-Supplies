@@ -157,6 +157,13 @@
 
 
 /*** Header ***/
+.banner-main{
+    height: 90vh;
+    background: linear-gradient(to right, #0000008d 100%, rgba(255, 255, 255, 0)), url(/img/companies/Magazine-Mockup.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .carousel-caption {
     top: 0;
     left: 0;

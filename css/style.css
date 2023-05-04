@@ -14,6 +14,10 @@
     border: none !important;
     background-color: var(--primary);
 }
+.core-value{
+    background-color: var(--primary);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 /* end of general css */
 
 .back-to-top {
@@ -204,7 +208,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/companies/chingola.webp) center center no-repeat;
     background-size: cover;
 }
 

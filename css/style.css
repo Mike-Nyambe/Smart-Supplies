@@ -349,7 +349,13 @@
 .service-item:hover .service-btn {
     bottom: -1.5rem;
 }
-/* our compaany profile */
+/* service detiled */
+.card-details{
+    border: none;
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+/* our company profile */
 
 .company-profile{
     background: linear-gradient(to right, #0000008d 100%, rgba(255, 255, 255, 0)), url(/img/companies/Magazine-Mockup.webp);

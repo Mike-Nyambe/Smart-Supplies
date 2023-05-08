@@ -216,7 +216,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/companies/chingola.webp) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.278), rgba(0, 0, 0, 0.375)), url(../img/companies/bg.jpeg) center center no-repeat;
     background-size: cover;
 }
 

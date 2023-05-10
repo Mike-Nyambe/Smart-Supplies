@@ -163,7 +163,7 @@
 /*** Header ***/
 .banner-main{
     height: 90vh;
-    background: linear-gradient(to right, #0000008d 100%, rgba(255, 255, 255, 0)), url(/img/companies/Magazine-Mockup.webp);
+    background: linear-gradient(to right, #0000008d 100%, rgba(255, 255, 255, 0)), url(/img/companies/main-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,7 +247,11 @@
     background-size: cover;
 }
 .about-cf{
-     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/companies/truckcf.jpg) left center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/companies/truckcf.jpg) left center no-repeat;
+    background-size: cover;
+}
+.about-smt{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/companies/bg2.jpg) left center no-repeat;
     background-size: cover;
 }
 .btn-play {

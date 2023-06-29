@@ -1,543 +1,866 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trade Smart provides supply chain, import/export consultation, custom clearing, warehousing, and transport and logistics services in Zambia and DRC Congo. Contact us to learn more."
+    />
+    <meta
+      name="keywords"
+      content="supply chain, import, export, consultation, custom clearing, warehousing, transport, logistics, Zambia, DRC Congo"
+    />
+    <title>
+      Trade Smart | Supply Chain and clearing and forwarding Services in Zambia
+      and DRC Congo
+    </title>
+    <meta
+      property="og:title"
+      content="Trade Smart | Supply Chain and clearing and forwarding Services in Zambia and DRC Congo"
+    />
+    <meta
+      property="og:description"
+      content="Trade Smart provides supply chain, import/export consultation, custom clearing, warehousing, and transport and logistics services in Zambia and DRC Congo. Contact us to learn more."
+    />
+    <meta
+      property="og:image"
+      content="https://tradesmartzm.com/img/logos/share-img.jpg"
+    />
+    <meta property="og:image:alt" content="Trade Smart logo" />
+    <meta property="og:url" content="https://tradesmartzm.com/" />
+    <link rel="canonical" href="https://tradesmartzm.com/" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Trade Smart provides supply chain, import/export consultation, custom clearing, warehousing, and transport and logistics services in Zambia and DRC Congo. Contact us to learn more.">
-        <meta name="keywords" content="supply chain, import, export, consultation, custom clearing, warehousing, transport, logistics, Zambia, DRC Congo">
-        <title>Trade Smart | Supply Chain and clearing and forwarding Services in Zambia and DRC Congo</title>
-        <meta property="og:title" content="Trade Smart | Supply Chain and clearing and forwarding Services in Zambia and DRC Congo">
-        <meta property="og:description" content="Trade Smart provides supply chain, import/export consultation, custom clearing, warehousing, and transport and logistics services in Zambia and DRC Congo. Contact us to learn more.">
-        <meta property="og:image" content="https://tradesmartzm.com/img/logos/share-img.jpg">
-        <meta property="og:image:alt" content="Trade Smart logo">
-        <meta property="og:url" content="https://tradesmartzm.com/">
-        <link rel="canonical" href="https://tradesmartzm.com/" />
+    <!-- Favicon -->
+    <link href="img/logos/logo.png" rel="icon" />
 
-        <!-- Favicon -->
-        <link href="img/logos/logo.png" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
-            rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
 
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    <!-- Topbar Start -->
+    <div class="container-fluid dark-color text-white d-none d-lg-flex">
+      <div class="container py-3">
+        <div class="d-flex align-items-center">
+          <a href="index.html">
+            <img src="img/logos/logo.png" alt="trade smart logo" />
+          </a>
+          <div class="ms-auto d-flex align-items-center">
+            <small class="ms-4"
+              ><i class="fa fa-envelope me-3"></i>info@tradesmartzm.com</small
+            >
+            <small class="ms-4"
+              ><i class="fab fa-whatsapp me-3"></i>+243 999 000 005</small
+            >
+            <small class="ms-4"
+              ><i class="fa fa-phone-alt me-3"></i>+260 96 8668012</small
+            >
+            <div class="ms-3 d-flex">
+              <a
+                class="btn btn-sm-square btn-light text-dark rounded-circle ms-2"
+                href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-sm-square btn-light text-dark rounded-circle ms-2"
+                href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-sm-square btn-light text-dark rounded-circle ms-2"
+                href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <!-- Spinner End -->
+      </div>
+    </div>
+    <!-- Topbar End -->
 
-
-        <!-- Topbar Start -->
-        <div class="container-fluid dark-color text-white d-none d-lg-flex">
-            <div class="container py-3">
-                <div class="d-flex align-items-center">
-                    <a href="index.html">
-                    <img src="img/logos/logo.png" alt="trade smart logo">
-                    </a>
-                    <div class="ms-auto d-flex align-items-center">
-                        <small class="ms-4"><i class="fa fa-envelope me-3"></i>info@tradesmartzm.com</small>
-                        <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+243 999 000 005</small>
-                        <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+260 96 8668012</small>
-                        <div class="ms-3 d-flex">
-                            <a class="btn btn-sm-square btn-light text-dark rounded-circle ms-2" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-sm-square btn-light text-dark rounded-circle ms-2" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-sm-square btn-light text-dark rounded-circle ms-2" href=""><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+          <a href="index.html" class="navbar-brand d-lg-none">
+            <img src="img/logos/logo.png" alt="Smart Supplies logo" />
+          </a>
+          <button
+            title="nav bar menu"
+            type="button"
+            class="navbar-toggler me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                  >Our Services</a
+                >
+                <div
+                  class="dropdown-menu bg-light rounded-0 rounded-bottom m-0"
+                >
+                  <a href="services/custom-clearing.html" class="dropdown-item">
+                    Custom Clearing</a
+                  >
+                  <a href="services/feri.html" class="dropdown-item"
+                    >Feri Document Processing</a
+                  >
+                  <a href="services/trans-logistcs.html" class="dropdown-item"
+                    >Forwarding / Logistics</a
+                  >
+                  <a href="services/consultaion.html" class="dropdown-item"
+                    >Consultation services</a
+                  >
+                  <a href="services/supplychain.html" class="dropdown-item"
+                    >Supply Chain</a
+                  >
+                  <!-- <a href="services/warehouse.html" class="dropdown-item">WareHousing Services</a> -->
+                  <a
+                    href="https://breadofthedove.com/"
+                    target="_blank"
+                    rel=" noopener noreferrer"
+                    class="dropdown-item"
+                    >Bakery Services</a
+                  >
                 </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                  >Our Companies</a
+                >
+                <div
+                  class="dropdown-menu bg-light rounded-0 rounded-bottom m-0"
+                >
+                  <a href="tradesmartsupplies.html" class="dropdown-item"
+                    >Trade smart supplies</a
+                  >
+                  <a href="tradesmartFC.html" class="dropdown-item"
+                    >Trade smart clearing & fowarding</a
+                  >
+                </div>
+              </div>
             </div>
+            <div class="ms-auto d-none d-lg-block">
+              <a
+                href="contact.html"
+                class="btn dark-color rounded-pill py-2 px-3 text-white"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- banner Start -->
+    <div class="container-fluid px-0 mb-5">
+      <div class="text-white bg-dark banner-main d-flex align-items-center">
+        <div class="container">
+          <div class="col-md-8 px-0">
+            <h1 class="display-3 text-white text-capitalize">City Drive</h1>
+            <p class="lead my-3">
+              We offer affordable yet exception services in
+              consultancy,forwarding and clearing, transport and logistics and
+              optimize the global supply chain.
+            </p>
+            <p class="lead mb-0">
+              <a
+                href="about.html"
+                class="text-white btn-danger py-2 px-4 rounded-1"
+                >Book A Ride</a
+              >
+            </p>
+          </div>
         </div>
-        <!-- Topbar End -->
-
-
-        <!-- Navbar Start -->
-        <div class="container-fluid bg-white sticky-top">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-                    <a href="index.html" class="navbar-brand d-lg-none">
-                        <img src="img/logos/logo.png" alt="Smart Supplies logo">
-                    </a>
-                    <button title="nav bar menu" type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Our Services</a>
-                                <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                    <a href="services/custom-clearing.html" class="dropdown-item"> Custom Clearing</a>
-                                    <a href="services/feri.html" class="dropdown-item">Feri Document Processing</a>
-                                    <a href="services/trans-logistcs.html" class="dropdown-item">Forwarding / Logistics</a>
-                                    <a href="services/consultaion.html" class="dropdown-item">Consultation services</a>
-                                    <a href="services/supplychain.html" class="dropdown-item">Supply Chain</a>
-                                    <!-- <a href="services/warehouse.html" class="dropdown-item">WareHousing Services</a> -->
-                                    <a href="https://breadofthedove.com/" target="_blank" rel=" noopener noreferrer" class="dropdown-item">Bakery Services</a>
-                                </div>
-                            </div>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Our Companies</a>
-                                <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                    <a href="tradesmartsupplies.html" class="dropdown-item">Trade smart supplies</a>
-                                    <a href="tradesmartFC.html" class="dropdown-item">Trade smart clearing & fowarding</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ms-auto d-none d-lg-block">
-                            <a href="contact.html" class="btn dark-color rounded-pill py-2 px-3 text-white">Contact</a>
-                        </div>
-                    </div>
-                </nav>
+      </div>
+    </div>
+    <!-- banner End -->
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-0 feature-row">
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+            <div class="feature-item border h-100 p-5">
+              <div
+                class="btn-square bg-light rounded-circle mb-4"
+                style="width: 64px; height: 64px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 50px; width: 50px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="mb-3">Efficiency</h5>
+              <p class="mb-0">Optimizing Your Workflow With Efficiency.</p>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+            <div class="feature-item border h-100 p-5">
+              <div
+                class="btn-square bg-light rounded-circle mb-4"
+                style="width: 64px; height: 64px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 50px; width: 50px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="mb-3">Equity</h5>
+              <p class="mb-0">
+                Inclusion through Equity, Diversity through Unity
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+            <div class="feature-item border h-100 p-5">
+              <div
+                class="btn-square bg-light rounded-circle mb-4"
+                style="width: 64px; height: 64px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 50px; width: 50px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.516 2.17a.75.75 0 00-1.032 0 11.209 11.209 0 01-7.877 3.08.75.75 0 00-.722.515A12.74 12.74 0 002.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 00.374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 00-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08zm3.094 8.016a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="mb-3">Integrity</h5>
+              <p class="mb-0">Leading with Honesty and Integrity</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+            <div class="feature-item border h-100 p-5">
+              <div
+                class="btn-square bg-light rounded-circle mb-4"
+                style="width: 64px; height: 64px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 50px; width: 50px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M9 1.5H5.625c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5zm6.61 10.936a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 14.47a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z"
+                  />
+                </svg>
+              </div>
+              <h5 class="mb-3">Commitment</h5>
+              <p class="mb-0">Together, We Are Committed to Success</p>
+            </div>
+          </div>
         </div>
-        <!-- Navbar End -->
+      </div>
+    </div>
+    <!-- Features End -->
 
-        <!-- banner Start -->
-        <div class="container-fluid px-0 mb-5">
-            <div class="text-white bg-dark banner-main d-flex align-items-center">
-                <div class="container">
-                    <div class="col-md-8 px-0 ">
-                        <h1 class="display-3 text-white text-capitalize">trade smart limited</h1>
-                        <p class="lead my-3">We offer affordable yet exception services in consultancy,forwarding and clearing, transport and logistics and optimize the global supply chain.</p>
-                        <p class="lead mb-0"><a href="about.html" class="text-white fw-bold">Continue reading...</a></p>
-                    </div>
-                </div>
+    <!-- About Start -->
+    <div class="container-xxl about my-5">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div
+              class="h-100 d-flex align-items-center justify-content-center"
+              style="min-height: 300px"
+            ></div>
+          </div>
+          <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+            <div class="bg-white rounded-top p-5 mt-lg-5">
+              <p class="fs-5 fw-medium text-primary">About Us</p>
+              <h6 class="display-6 mb-4 text-capitalize">who are we?</h6>
+              <p class="mb-4">
+                Trade SMart is a company that is based in Zambia and has many
+                partners in Lumumbashi and Kolwezi in the Democratic Republic of
+                Congo.Trade Smart is made up of Two major companies that work
+                independently but as one. The First company, which is
+                <strong>Trade Smart Clearing and Forwarding</strong> and has its
+                head quarters in Ndola on the Copperbelt province of Zambia and
+                <strong>Trade Smart Supplies</strong> which has its head
+                quarters in Chililabombwe on the Copperbelt province of Zambia.
+              </p>
+              <a
+                class="btn text-white dark-color rounded-pill py-3 px-5"
+                href="about.html"
+                >Read More</a
+              >
             </div>
-        </div> 
-        <!-- banner End -->
-        <!-- Features Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-0 feature-row">
-                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="feature-item border h-100 p-5">
-                            <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height: 50px; width:50px; fill:#50ade8;">
-                                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <h5 class="mb-3">Efficiency</h5>
-                            <p class="mb-0">Optimizing Your Workflow With Efficiency.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="feature-item border h-100 p-5">
-                            <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height: 50px; width:50px; fill:#50ade8;">
-                                    <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <h5 class="mb-3">Equity</h5>
-                            <p class="mb-0">Inclusion through Equity, Diversity through Unity</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="feature-item border h-100 p-5">
-                            <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height: 50px; width:50px; fill:#50ade8;">
-                                    <path fill-rule="evenodd" d="M12.516 2.17a.75.75 0 00-1.032 0 11.209 11.209 0 01-7.877 3.08.75.75 0 00-.722.515A12.74 12.74 0 002.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 00.374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 00-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08zm3.094 8.016a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <h5 class="mb-3">Integrity</h5>
-                            <p class="mb-0">Leading with Honesty and Integrity</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="feature-item border h-100 p-5">
-                            <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height: 50px; width:50px; fill:#50ade8;">
-                                    <path fill-rule="evenodd" d="M9 1.5H5.625c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5zm6.61 10.936a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 14.47a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
-                                    <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
-                                </svg>
-                            </div>
-                            <h5 class="mb-3">Commitment</h5>
-                            <p class="mb-0">Together, We Are Committed to Success</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- Features End -->
+      </div>
+    </div>
+    <!-- About End -->
 
-        <!-- About Start -->
-        <div class="container-xxl about my-5">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-6">
-                        <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="bg-white rounded-top p-5 mt-lg-5">
-                            <p class="fs-5 fw-medium text-primary">About Us</p>
-                            <h6 class="display-6 mb-4 text-capitalize">who are we?</h6>
-                            <p class="mb-4">
-                                Trade SMart is a company that is based in Zambia and has many partners in Lumumbashi and Kolwezi in the Democratic
-                                Republic of Congo.Trade Smart is made up of Two major companies that work independently but as one. The First company,
-                                which is <strong>Trade Smart Clearing and Forwarding</strong> and has its head quarters in Ndola on the Copperbelt province
-                                of Zambia and <strong>Trade Smart Supplies</strong> which has its head quarters in Chililabombwe on the Copperbelt province of Zambia.
-                            </p>
-                            <a class="btn text-white dark-color rounded-pill py-3 px-5" href="about.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- company intro Start -->
+    <div class="container-xxl py-5 section-bg">
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <h1 class="display-5 mb-5">Our Companies</h1>
         </div>
-        <!-- About End -->
-
-        <!-- company intro Start -->
-            <div class="container-xxl py-5 section-bg">
-                <div class="container">
-                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                        <h1 class="display-5 mb-5">Our Companies</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 mb-3">
-                            <div class="card mb-3 h-100">
-                                <img src="img/companies/chingola.webp" class="card-img-top" alt="image of companies under trade smart supplies" style="height: 320px;">
-                                <div class="card-body">
-                                    <h5 class="card-title text-capitalize">trade smart supplies limited</h5>
-                                    <p class="card-text mb-4">
-                                        Trade Smart Supplies is a child company of Trade Smart that deals with export and import consultation, Feri document processing
-                                        and manages a supply chain of various products to different industries.
-                                    </p>
-                                    <p class="card-text"><small class="text-muted"><i class="fa fa-map-marker-alt me-3"></i>Plot n°26, Mwanangwa House, Church road, Town Centre, Chililabombwe, Zambia</small></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-3">
-                            <div class="card mb-3 h-100">
-                                <img src="img/companies/ndola.jpeg" class="card-img-top" alt="image of companies under trade smart supplies" style="height: 320px;">
-                                <div class="card-body">
-                                    <h5 class="card-title text-capitalize">trade smart clearing and forwarding</h5>
-                                    <p class="card-text mb-4">
-                                        Trade Smart Clearing and Forwarding is a child company of Trade Smart that deals with customs clearing, forwarding, warehousing and transport and logistics.
-                                        the company facilitates the movement of goods from various ports to DRC Congo and elsewhere.
-                                    </p>
-                                    <p class="card-text"><small class="text-muted"><i class="fa fa-map-marker-alt me-3"></i>DBZ - Development House , 2nd Floor, Plot No. 10, President Avenue, Ndola, Zambia</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-3">
+            <div class="card mb-3 h-100">
+              <img
+                src="img/companies/chingola.webp"
+                class="card-img-top"
+                alt="image of companies under trade smart supplies"
+                style="height: 320px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">
+                  trade smart supplies limited
+                </h5>
+                <p class="card-text mb-4">
+                  Trade Smart Supplies is a child company of Trade Smart that
+                  deals with export and import consultation, Feri document
+                  processing and manages a supply chain of various products to
+                  different industries.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><i class="fa fa-map-marker-alt me-3"></i>Plot n°26,
+                    Mwanangwa House, Church road, Town Centre, Chililabombwe,
+                    Zambia</small
+                  >
+                </p>
+              </div>
             </div>
-        <!-- company intro End -->
-        <!-- message from MD -->
-            <div class="container-xxl py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="card card-custom mb-3">
-                                <div class="row g-0">
-                                    <div class="col-md-5">
-                                        <img src="img/profiles/mypic.jpg" class="img-fluid" alt="trade smart supplies managing director">
-                                        </div>
-                                        <div class="col-md-7">
-                                        <div class="card-body p-5">
-                                            <h4 class="card-title text-white py-4">Message From Managing Director</h4>
-                                            <p class="card-text text-white">
-                                                On behalf of our organization, it is my pleasure to give a hearty welcome to you. 
-                                                It is a privilege for me to serve as the Managing Director of this group of bright 
-                                                people who are committed to giving our clients high-quality goods and services.
-                                            </p>
-                                            <p class="card-text text-white">
-                                                In addition to maintaining a high level of client satisfaction, we work hard to offer 
-                                                our clients cutting-edge solutions. Our team is dedicated to doing everything possible 
-                                                to the best of our ability, and we spare no effort to make sure that every time a customer 
-                                                interacts with us, they are happy.
-                                            </p>
-                                            <p class="card-text text-white pb-3">
-                                                We firmly think that the happiness of our consumers is a direct indicator of our performance, 
-                                                and we will keep working hard to meet and surpass their expectations.
-                                            </p>
-                                            <p class="card-text pt-3"><small class="text-white">Andrew Sikazwe</small></p>
-                                            <p class="text-muted">Managing Director</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-3">
+            <div class="card mb-3 h-100">
+              <img
+                src="img/companies/ndola.jpeg"
+                class="card-img-top"
+                alt="image of companies under trade smart supplies"
+                style="height: 320px"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">
+                  trade smart clearing and forwarding
+                </h5>
+                <p class="card-text mb-4">
+                  Trade Smart Clearing and Forwarding is a child company of
+                  Trade Smart that deals with customs clearing, forwarding,
+                  warehousing and transport and logistics. the company
+                  facilitates the movement of goods from various ports to DRC
+                  Congo and elsewhere.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><i class="fa fa-map-marker-alt me-3"></i>DBZ - Development
+                    House , 2nd Floor, Plot No. 10, President Avenue, Ndola,
+                    Zambia</small
+                  >
+                </p>
+              </div>
             </div>
-        <!-- end of message from MD -->
-        <!-- Service Start -->
-        <div class="container-xxl py-5 pb-5 section-bg">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                    <div class="col-lg-7 mb-4">
-                        <h1 class="font-weight-light">DRC Feri Certificate</h1>
-                        <p>we are specialised in processing the compulsory FERI (Fiche Electronique de Renseignement à l'importation) certificate which is required to clear cargo in Democratic Republic of Congo</p>
-                        <a class="btn btn-outline-dark rounded-pill" href="services/feri.html">Read More</a>
-                    </div>
-                    <div class="col-lg-5"><img class="img-fluid rounded mb-4 mb-lg-0" src="img/servicesdetails/tlogistics-2.jpg" alt="image of transport vessels"></div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- Service End -->
-        <!-- our company profile -->
-        <div class="container-xxl pt-5 company-profile">
-            <div class="container">
-                <div class="row d-flex align-items-center justify-content-center">
-                    <div class="col-lg-8">
-                        <div>
-                            <h1 class="display-5 mb-4 text-white">More Information about us from company profile.</h1>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="profile-download d-flex align-items-center justify-content-center flex-column">
-                            <div class="text-center profile-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height:50px; width:50px; fill:#50ade8;">
-                                    <path fill-rule="evenodd" d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5H5.625zM7.5 15a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 017.5 15zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H8.25z" clip-rule="evenodd" />
-                                    <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
-                                </svg>
-                            </div>
-                            <div class="pt-3">
-                                <h6 class="text-white text-center">Download company profile</h6>
-                            </div>
-                            <div class="pt-3">
-                                <a href="pdf-files/profile.pdf" class="btn-outline-light btn" download="">Download</a>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+    </div>
+    <!-- company intro End -->
+    <!-- message from MD -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card card-custom mb-3">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img
+                    src="img/profiles/mypic.jpg"
+                    class="img-fluid"
+                    alt="trade smart supplies managing director"
+                  />
                 </div>
+                <div class="col-md-7">
+                  <div class="card-body p-5">
+                    <h4 class="card-title text-white py-4">
+                      Message From Managing Director
+                    </h4>
+                    <p class="card-text text-white">
+                      On behalf of our organization, it is my pleasure to give a
+                      hearty welcome to you. It is a privilege for me to serve
+                      as the Managing Director of this group of bright people
+                      who are committed to giving our clients high-quality goods
+                      and services.
+                    </p>
+                    <p class="card-text text-white">
+                      In addition to maintaining a high level of client
+                      satisfaction, we work hard to offer our clients
+                      cutting-edge solutions. Our team is dedicated to doing
+                      everything possible to the best of our ability, and we
+                      spare no effort to make sure that every time a customer
+                      interacts with us, they are happy.
+                    </p>
+                    <p class="card-text text-white pb-3">
+                      We firmly think that the happiness of our consumers is a
+                      direct indicator of our performance, and we will keep
+                      working hard to meet and surpass their expectations.
+                    </p>
+                    <p class="card-text pt-3">
+                      <small class="text-white">Andrew Sikazwe</small>
+                    </p>
+                    <p class="text-muted">Managing Director</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- end of campany profile -->
-
-        <!-- objectives and motto -->
-        <div class="container-xxl py-5 pb-5">
-            <div class="container">
-                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <h1 class="display-5 mb-5 text-capitalize">Aim, Motto & Objective</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="motto-objective wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="py-3 text-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height:45px; width:45px; fill:#50ade8">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                </svg>
-
-                            </div>
-                            <h5 class="text-capitalize">company Aim</h5>
-                            <div class="objective-motto-text">
-                                 <p>To provide comprehensive and efficient business solutions for our clients</p>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="col-lg-4 col-md-12">
-                        <div class="motto-objective wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="py-3 text-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height:45px; width:45px; fill:#50ade8">
-                                    <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
-                                    <path fill-rule="evenodd" d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <h5 class="text-capitalize">company Motto</h5>
-                            <div class="objective-motto-text">
-                               <p>Together Values</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="motto-objective wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="py-3 text-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="height:45px; width:45px; fill:#50ade8">
-                                    <path fill-rule="evenodd" d="M12.516 2.17a.75.75 0 00-1.032 0 11.209 11.209 0 01-7.877 3.08.75.75 0 00-.722.515A12.74 12.74 0 002.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 00.374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 00-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08zm3.094 8.016a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <h5 class="text-capitalize">company objective</h5>
-                            <div class="objective-motto-text">
-                                <p>
-                                    Customer satisfaction is our top priority, Excellence in everything we do
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <!-- end of message from MD -->
+    <!-- Service Start -->
+    <div class="container-xxl py-5 pb-5 section-bg">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+          <div class="col-lg-7 mb-4">
+            <h1 class="font-weight-light">DRC Feri Certificate</h1>
+            <p>
+              we are specialised in processing the compulsory FERI (Fiche
+              Electronique de Renseignement à l'importation) certificate which
+              is required to clear cargo in Democratic Republic of Congo
+            </p>
+            <a
+              class="btn btn-outline-dark rounded-pill"
+              href="services/feri.html"
+              >Read More</a
+            >
+          </div>
+          <div class="col-lg-5">
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="img/servicesdetails/tlogistics-2.jpg"
+              alt="image of transport vessels"
+            />
+          </div>
         </div>
-        <!-- end of objects and motto -->
-
-        <!-- why choose us -->
-        <section class="py-5 bg-white">
-            <div class="container-xxl why-us my-5">
-                <div class="container">
-                    <div class="row g-0">
-                        <div class="col-lg-6">
-                            <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="bg-white rounded-top p-5 mt-lg-5">
-                                <p class="fs-5 fw-medium text-primary">Why us</p>
-                                <h6 class="display-6 mb-4 text-capitalize">why work with us?</h6>
-                                <p class="mb-4">
-                                    At Trade Smart, we believe in providing our customers with the best possible service and products.
-                                    With years of experience in the industry, we have developed a deep understanding of what our customers need and how to exceed their expectations.
-                                </p>
-                            <p class="text-capitalize"><i class="fa fa-check-double me-3"></i> High quality services</p>
-                            <p class="text-capitalize"><i class="fa fa-check-double me-3"></i> High Quality products</p>
-                            <p class="text-capitalize"><i class="fa fa-check-double me-3"></i> Experienced Team</p>
-                            <p class="text-capitalize"><i class="fa fa-check-double me-3"></i> personalized attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+    <!-- Service End -->
+    <!-- our company profile -->
+    <div class="container-xxl pt-5 company-profile">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-8">
+            <div>
+              <h1 class="display-5 mb-4 text-white">
+                More Information about us from company profile.
+              </h1>
             </div>
-        </section>
-        <!-- end of why choose us -->
-
-        <!-- Quote Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="fs-5 fw-medium text-primary">Get A Quotation</p>
-                        <h1 class="display-5 mb-4">Need Our Services? We are Here!</h1>
-                        <p>
-                            Have a question or just want to say hi? We'd love to hear from you! 
-                            Our friendly team is always here to help, so don't hesitate to get in touch. 
-                            You can reach us by phone or email, We can't wait to hear from you!
-                        </p>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <h2 class="mb-4">Get Connected Now</h2>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex border-bottom pb-3 mb-3">
-                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                        <i class="fa fa-phone-alt text-white"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h6>Call Us</h6>
-                                        <span>+243 999 000 005</span>
-                                        <br>
-                                        <span>+260 96 8668012</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex border-bottom-0 pb-3 mb-3">
-                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                        <i class="fa fa-envelope text-white"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h6 class="mb-3">Send an Email</h6>
-                                        <span>info@tradesmartzm.com</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="profile-download d-flex align-items-center justify-content-center flex-column"
+            >
+              <div class="text-center profile-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 50px; width: 50px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5H5.625zM7.5 15a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 017.5 15zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H8.25z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z"
+                  />
+                </svg>
+              </div>
+              <div class="pt-3">
+                <h6 class="text-white text-center">Download company profile</h6>
+              </div>
+              <div class="pt-3">
+                <a
+                  href="pdf-files/profile.pdf"
+                  class="btn-outline-light btn"
+                  download=""
+                  >Download</a
+                >
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Quote Start -->
-        
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-white mb-4">Our Offices</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>DBZ - Development  House , 2nd Floor, Plot No. 10, President Avenue, Ndola, Zambia</p>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Plot n°26, Mwanangwa House, Church road, Town Centre, Chililabombwe, Zambia</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-white mb-4">Quick Links</h4>
-                        <a class="btn btn-link" href="about.html">About Us</a>
-                        <a class="btn btn-link" href="contact.html">Contact Us</a>
-                        <a class="btn btn-link" href="services/feri.html">Feri Certificate</a>
-                        <a class="btn btn-link" href="tradesmartsupplies.html">Trade Smart Supplies</a>
-                        <a class="btn btn-link" href="tradesmartFC.html">Forwarding & Clearing</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-white mb-4">Business Hours</h4>
-                        <p class="mb-1">Monday - Friday</p>
-                        <h6 class="text-light">08:00 am - 05:00 pm</h6>
-                        <p class="mb-1">Saturday</p>
-                        <h6 class="text-light">09:00 am - 12:00 pm</h6>
-                        <p class="mb-1">Sunday</p>
-                        <h6 class="text-light">Closed</h6>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <a href="index.html">
-                            <img src="img/logos/logo.png" alt="Smart Supplies logo">
-                        </a>
-                        <p>Together Values</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+260 96 8668012</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@tradesmartzm.com</p>
-                        <div class="d-flex pt-3">
-                            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <!-- end of campany profile -->
+
+    <!-- objectives and motto -->
+    <div class="container-xxl py-5 pb-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <h1 class="display-5 mb-5 text-capitalize">Aim, Motto & Objective</h1>
         </div>
-        <!-- Footer End -->
-
-
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="fw-medium text-light text-muted">Trade Smart Supplies LTD</a>, All Right Reserved. @ <script>document.write(new Date().getFullYear())</script>
-                    </div>
-                </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-12">
+            <div class="motto-objective wow fadeInUp" data-wow-delay="0.1s">
+              <div class="py-3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 45px; width: 45px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-capitalize">company Aim</h5>
+              <div class="objective-motto-text">
+                <p>
+                  To provide comprehensive and efficient business solutions for
+                  our clients
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="motto-objective wow fadeInUp" data-wow-delay="0.1s">
+              <div class="py-3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 45px; width: 45px; fill: #50ade8"
+                >
+                  <path
+                    d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-capitalize">company Motto</h5>
+              <div class="objective-motto-text">
+                <p>Together Values</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="motto-objective wow fadeInUp" data-wow-delay="0.5s">
+              <div class="py-3 text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="height: 45px; width: 45px; fill: #50ade8"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.516 2.17a.75.75 0 00-1.032 0 11.209 11.209 0 01-7.877 3.08.75.75 0 00-.722.515A12.74 12.74 0 002.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 00.374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 00-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08zm3.094 8.016a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h5 class="text-capitalize">company objective</h5>
+              <div class="objective-motto-text">
+                <p>
+                  Customer satisfaction is our top priority, Excellence in
+                  everything we do
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Copyright End -->
+      </div>
+    </div>
+    <!-- end of objects and motto -->
 
+    <!-- why choose us -->
+    <section class="py-5 bg-white">
+      <div class="container-xxl why-us my-5">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div
+                class="h-100 d-flex align-items-center justify-content-center"
+                style="min-height: 300px"
+              ></div>
+            </div>
+            <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+              <div class="bg-white rounded-top p-5 mt-lg-5">
+                <p class="fs-5 fw-medium text-primary">Why us</p>
+                <h6 class="display-6 mb-4 text-capitalize">
+                  why work with us?
+                </h6>
+                <p class="mb-4">
+                  At Trade Smart, we believe in providing our customers with the
+                  best possible service and products. With years of experience
+                  in the industry, we have developed a deep understanding of
+                  what our customers need and how to exceed their expectations.
+                </p>
+                <p class="text-capitalize">
+                  <i class="fa fa-check-double me-3"></i> High quality services
+                </p>
+                <p class="text-capitalize">
+                  <i class="fa fa-check-double me-3"></i> High Quality products
+                </p>
+                <p class="text-capitalize">
+                  <i class="fa fa-check-double me-3"></i> Experienced Team
+                </p>
+                <p class="text-capitalize">
+                  <i class="fa fa-check-double me-3"></i> personalized attention
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of why choose us -->
 
-        <!-- Back to Top -->
-        <a title="go up button" href="#" class="text-white btn btn-lg dark-color btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i>
-        </a>
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p class="fs-5 fw-medium text-primary">Get A Quotation</p>
+            <h1 class="display-5 mb-4">Need Our Services? We are Here!</h1>
+            <p>
+              Have a question or just want to say hi? We'd love to hear from
+              you! Our friendly team is always here to help, so don't hesitate
+              to get in touch. You can reach us by phone or email, We can't wait
+              to hear from you!
+            </p>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <h2 class="mb-4">Get Connected Now</h2>
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex border-bottom pb-3 mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                  >
+                    <i class="fa fa-phone-alt text-white"></i>
+                  </div>
+                  <div class="ms-3">
+                    <h6>Call Us</h6>
+                    <span>+260 96 8668012</span>
+                    <br />
+                    <span>+260 97 2256005</span>
+                  </div>
+                </div>
+                <div class="d-flex border-bottom-0 pb-3 mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                  >
+                    <i class="fa fa-envelope text-white"></i>
+                  </div>
+                  <div class="ms-3">
+                    <h6 class="mb-3">Send an Email</h6>
+                    <span>info@tradesmartzm.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quote Start -->
 
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-4">Our Offices</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>DBZ - Development House ,
+              2nd Floor, Plot No. 10, President Avenue, Ndola, Zambia
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Plot n°26, Mwanangwa
+              House, Church road, Town Centre, Chililabombwe, Zambia
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="services/feri.html"
+              >Feri Certificate</a
+            >
+            <a class="btn btn-link" href="tradesmartsupplies.html"
+              >Trade Smart Supplies</a
+            >
+            <a class="btn btn-link" href="tradesmartFC.html"
+              >Forwarding & Clearing</a
+            >
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-4">Business Hours</h4>
+            <p class="mb-1">Monday - Friday</p>
+            <h6 class="text-light">08:00 am - 05:00 pm</h6>
+            <p class="mb-1">Saturday</p>
+            <h6 class="text-light">09:00 am - 12:00 pm</h6>
+            <p class="mb-1">Sunday</p>
+            <h6 class="text-light">Closed</h6>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="index.html">
+              <img src="img/logos/logo.png" alt="Smart Supplies logo" />
+            </a>
+            <p>Together Values</p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+260 96 8668012
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@tradesmartzm.com
+            </p>
+            <div class="d-flex pt-3">
+              <a class="btn btn-square btn-light rounded-circle me-2" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square btn-light rounded-circle me-2" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square btn-light rounded-circle me-2" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+            &copy;
+            <a class="fw-medium text-light text-muted"
+              >Trade Smart Supplies LTD</a
+            >, All Right Reserved. @
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
 
+    <!-- Back to Top -->
+    <a
+      title="go up button"
+      href="#"
+      class="text-white btn btn-lg dark-color btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
